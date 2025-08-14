@@ -1,46 +1,15 @@
-# 🚀 Gerenciador de Redes Sociais
-
-Projeto exemplo utilizando o padrão Strategy para simular publicações em múltiplas redes sociais.
-
----
-
-## 🎯 Objetivo
-
-Simular um gerenciador de redes sociais que publica mensagens em diferentes plataformas (Facebook, Twitter, Instagram) usando o padrão Strategy.
-
----
-
-## 🗂️ Estrutura do Projeto
-
-- 🧩 **Postagem (interface):** Contrato para estratégias de postagem
-- 📘 **Facebook:** Estratégia de postagem para Facebook
-- 🐦 **Twitter:** Estratégia de postagem para Twitter
-- 📸 **Instagram:** Estratégia de postagem para Instagram
-- 🔄 **PublicarPost:** Gerencia e troca dinamicamente a estratégia
-- 🏁 **Main:** Demonstra o uso do padrão Strategy
-  | PublicarPost | Gerencia e troca dinamicamente a estratégia |
-  | Main | Demonstra o uso do padrão Strategy |
-
----
-
 ```
-  ██████╗ ███████╗███████╗███╗   ██╗ ██████╗ █████╗ ██████╗ ███████╗
-  ██╔════╝ ██╔════╝██╔════╝████╗  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝
-  ██║  ███╗█████╗  █████╗  ██╔██╗ ██║██║     ███████║██████╔╝█████╗
-  ██║   ██║██╔══╝  ██╔══╝  ██║╚██╗██║██║     ██╔══██║██╔══██╗██╔══╝
-  ╚██████╔╝███████╗███████╗██║ ╚████║╚██████╗██║  ██║██║  ██║███████╗
-  ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+██████╗ ███████╗███████╗███╗   ██╗ ██████╗ █████╗ ██████╗ ███████╗
+██╔════╝ ██╔════╝██╔════╝████╗  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝
+██║  ███╗█████╗  █████╗  ██╔██╗ ██║██║     ███████║██████╔╝█████╗
+██║   ██║██╔══╝  ██╔══╝  ██║╚██╗██║██║     ██╔══██║██╔══██╗██╔══╝
+╚██████╔╝███████╗███████╗██║ ╚████║╚██████╗██║  ██║██║  ██║███████╗
+╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
 ```
 
 # 🚀 Gerenciador de Redes Sociais
 
-Projeto exemplo utilizando o padrão Strategy para simular publicações em múltiplas redes sociais.
-
----
-
-## 🎯 Objetivo
-
-Simular um gerenciador de redes sociais que publica mensagens em diferentes plataformas (Facebook, Twitter, Instagram) usando o padrão Strategy.
+Projeto que demonstra o uso do padrão Strategy para publicar mensagens em diferentes plataformas (Facebook, Twitter, Instagram) de forma flexível e organizada.
 
 ---
 
