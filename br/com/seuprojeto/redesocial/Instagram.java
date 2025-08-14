@@ -1,7 +1,11 @@
+package br.com.seuprojeto.redesocial;
+
 public class Instagram implements Postagem {
     @Override
-    public void publicar (String mensagem) {
+    public void publicar(String mensagem) {
         System.out.println("Conectando à API do Instagram...");
+        try { Thread.sleep(500); } catch (InterruptedException e) { }
+        System.out.println("Conexão estabelecida com sucesso!");
         System.out.println("Formatando a mensagem para o padrão do Instagram...");
         System.out.println("POSTADO no Instagram: " + mensagem);
         System.out.println("------------------------------------");

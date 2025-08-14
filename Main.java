@@ -1,3 +1,8 @@
+import br.com.seuprojeto.redesocial.Facebook;
+import br.com.seuprojeto.redesocial.Instagram;
+import br.com.seuprojeto.redesocial.PublicarPost;
+import br.com.seuprojeto.redesocial.Twitter;
+
 public class Main {
     public static void main (String[] args) {
         
