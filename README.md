@@ -58,7 +58,7 @@ publicarPost.executarPublicacao("Publicando no LinkedIn!");
 
 ```bash
 # 1. Abra o terminal e navegue até a pasta do projeto:
-cd C:\Users\thavy\Downloads\DesingPatters-Gerenciador-redes-sociais-main
+cd C:\Users\seunome\ondesalvou\DesingPatters-Gerenciador-redes-sociais-main
 
 # 2. Compile todos os arquivos Java e direcione os .class para a pasta bin:
 javac -d bin Main.java br\com\example\redesocial\Facebook.java br\com\example\redesocial\Instagram.java br\com\example\redesocial\LinkedIn.java br\com\example\redesocial\Postagem.java br\com\example\redesocial\PublicarPost.java br\com\example\redesocial\Twitter.java
